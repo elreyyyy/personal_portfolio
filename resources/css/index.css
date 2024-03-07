@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to orange on hover */
+li a:hover {
+    background-color: orange;
+}
+
+.profile_picture img{
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+}
